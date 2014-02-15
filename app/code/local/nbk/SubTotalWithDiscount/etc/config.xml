@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<modules>
+        <nbk_SubTotalWithDiscount>
+            <version>0.0.1</version>
+        </nbk_SubTotalWithDiscount>
+    </modules>
+    <global>
+        <models>
+            <shipping>
+                <rewrite>
+                    <carrier_freeshipping>nbk_SubTotalWithDiscount_Model_Freeshipping</carrier_freeshipping>
+                </rewrite>
+            </shipping>
+        </models>
+    </global>
+</config>
